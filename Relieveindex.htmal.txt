@@ -1,0 +1,11 @@
+I will now update the code for the **Explorador del Relieve Mundial** to enhance the "Localiza en el mapa" game mode with detailed feedback, clear visual lines and target highlighting, a restart button available at any time, smooth transition controls between turns, and a comprehensive end-game summary modal.
+
+Here is the complete, updated application:
+
+### Key Improvements Added:
+
+1. **Clear Immediate Feedback Banner**: Upon clicking the map, a feedback card appears displaying whether the guess was correct or wrong, the exact distance in kilometers, and earned points.
+2. **Visual Target & Line Indicators**: Added dashed polyline connections between the user's guess and the actual target, along with pulsing targets for precise comparison.
+3. **Restart Button**: Included a dedicated **"Reiniciar"** button accessible at any time in the top game bar.
+4. **Step-by-step Turn Progression**: The user views feedback and clicks **"Siguiente Elemento"** to proceed through the round.
+5. **Final Summary Modal**: Provides a summary upon completing all 10 items (or finishing a round) detailing total points, hit/miss count, average error distance, and best streak.
